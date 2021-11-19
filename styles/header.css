@@ -63,11 +63,6 @@ body {
 	height: 100%;
 }
 
-.headerBottomContainer {
-	max-width: 76rem;
-	margin: 0 auto;
-}
-
 .headerLogo {
 	width: 10rem;
 	height: 3rem;
@@ -120,9 +115,11 @@ body {
 	font-weight: bold;
 }
 
-.headerBottomContainer nav {
+.headerBottomContainer .nav {
 	display: flex;
 	justify-content: space-between;
+	max-width: 76rem;
+	margin: 0 auto;
 }
 
 .headerBottomContainer nav ul {
@@ -130,6 +127,22 @@ body {
 	list-style-type: none;
 }
 
-.headerBottomContainer nav ul li {
+.headerBottomContainer .nav ul li:not(:last-of-type) {
 	margin-right: 1rem;
+}
+
+.subNav {
+	background-color: #f0f6ff;
+}
+
+.subNav nav {
+	display: flex;
+	justify-content: right;
+	max-width: 76rem;
+	margin: 0 auto;
+}
+
+.subNav nav ul {
+	width: 75%;
+	justify-content: space-between;
 }

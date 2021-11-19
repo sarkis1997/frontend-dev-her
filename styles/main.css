@@ -1,0 +1,32 @@
+main {
+	max-width: 76rem;
+	margin: 0 auto;
+}
+#content1 {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-gap: 1.5%;
+	margin-top: 1rem;
+}
+
+#content1 img {
+	width: 100%;
+}
+
+#banner {
+	grid-row: 1;
+	grid-column: 1/5;
+}
+
+.card1 {
+	grid-column: 1;
+}
+.card2 {
+	grid-column: 2;
+}
+.card3 {
+	grid-column: 3;
+}
+.card4 {
+	grid-column: 4;
+}
