@@ -1,5 +1,135 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
+body {
+	margin: 0;
+	font-family: "graphik", "arial", "helvetica", "sans-serif";
+}
+
+.topbar {
+	display: flex;
+	justify-content: space-between;
+	max-width: 76rem;
+	margin: 0 auto;
+	padding: 0.55rem 0;
+	font-size: 0.75rem;
+	color: #0000a4;
+}
+
+.topbar a {
+	text-decoration: none;
+}
+
+.selectVoordelen {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	color: #0000a4;
+}
+
+.selectVoordelen li {
+	margin-right: 0.7rem;
+}
+
+.selectVoordelen li span {
+	font-weight: bold;
+}
+
+.selectPunten {
+	color: #01982b;
+	margin: 0;
+}
+.selectPunten span {
+	font-weight: bold;
+}
+
+.headerTop {
+	background-color: #0000a4;
+	height: 4.5rem;
+}
+
+.headerTopContainer {
+	max-width: 76rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.headerBottomContainer {
+	max-width: 76rem;
+	margin: 0 auto;
+}
+
+.headerLogo {
+	width: 10rem;
+	height: 3rem;
+}
+
+.searchField {
+	display: flex;
+	align-items: center;
+}
+
+.searchFieldInput {
+	border-radius: 50px;
+	border: none;
+	width: 40rem;
+	height: 3rem;
+	padding-left: 1.5rem;
+	font-size: 0.9rem;
+}
+
+.searchIcon {
+	height: 1.4rem;
+	margin-left: -2.7rem;
+}
+
+.headerTopActions {
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+.headerTopActions > *:not(:last-of-type) {
+	margin-right: 1rem;
+}
+.headerTopActions img {
+	height: 1.5rem;
+}
+
+.account {
+	display: flex;
+	align-items: center;
+}
+.account p {
+	margin-right: 1rem;
+	text-align: right;
+	font-size: 0.9rem;
+}
+.lightText {
+	font-weight: 300;
+}
+.boldText {
+	font-weight: bold;
+}
+
+.headerBottomContainer nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerBottomContainer nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.headerBottomContainer nav ul li {
+	margin-right: 1rem;
+}
