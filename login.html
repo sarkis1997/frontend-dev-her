@@ -8,6 +8,7 @@
     <title>De winkel van ons allemaal | bol.com</title>
     <link href="styles/header.css" rel="stylesheet" />
     <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/login.css" rel="stylesheet" />
     <link href="styles/footer.css" rel="stylesheet" />
 
     <link rel="icon" type="image/svg+xml" href="images/faviconbol.svg" />
@@ -28,7 +29,7 @@
         </ul>
       </a>
       <p class="selectPunten">
-        <span>10 punten</span> gespaard met <span>select</span> >
+        <span>Select</span> Ontdek het nu voor 9,99 p.j.
       </p>
     </div>
     <header>
@@ -42,30 +43,21 @@
               class="searchFieldInput"
               type="text"
               placeholder="Waar ben je naar op zoek?"
-              onclick="searchInput()"
             />
             <img
               class="searchIcon"
               src="images/search-icon.svg"
               alt="search icon"
-              onclick="searchInputHandler()"
             />
-            <div class="searchResults disabled">
-              <ul class="searchResultsList">
-                <li><span>Cold of war</span><i class="fas fa-times"></i></li>
-              </ul>
-            </div>
           </div>
           <div class="headerTopActions">
             <div class="account">
               <p>
-                <span class="lightText">Welkom</span>
-                <br />
-                <span class="boldText">Sarkis</span>
+                <span class="lightText">Inloggen</span>
               </p>
               <a href="login.html">
-                <img src="images/user-icon.svg" alt="user icon"
-              /></a>
+                <img src="images/user-icon.svg" alt="user icon" />
+              </a>
             </div>
             <div class="wishlist">
               <img src="images/heart-icon.svg" alt="wishlist icon" />
@@ -107,28 +99,31 @@
       </div>
     </header>
     <main>
-      <div id="content1">
-        <div id="banner"><img src="images/BlackFridayBanner.jpeg" /></div>
-        <div class="card card1">
-          <img src="images/card1.png" alt="category games" />
+      <h1>Inloggen</h1>
+      <div class="loginContainer">
+        <div>
+          <p>Bestaande klanten</p>
+          <form>
+            <input type="text" placeholder="E-mailadres" /><br />
+            <input type="password" placeholder="Wachtwoord" /><br />
+          </form>
+          <button class="loginButton" onclick="login()">Inloggen</button>
+          <a href="#">Wachtwoord vergeten?</a>
         </div>
-        <div class="card card2">
-          <img src="images/card2.png" alt="category education" />
-        </div>
-        <div class="card card3">
-          <img src="images/card3.png" alt="category dolls" />
-        </div>
-        <div class="card card4">
-          <img src="images/card4.png" alt="category babygames" />
+        <div>
+          <p>Nieuw bij bol.com?</p>
+          <p>Maak binnen 2 minuten een account aan.</p>
+          <form>
+            <input type="radio" id="html" name="fav_language" value="HTML" />
+            <label for="html">Voor jezelf</label>
+            <input type="radio" id="css" name="fav_language" value="CSS" />
+            <label for="css">Voor je bedrijf</label>
+            <input type="text" placeholder="E-mailadres" />
+          </form>
         </div>
       </div>
     </main>
     <footer>
-      <div class="footerSubscribeContainer">
-        <h3>Geen voordeel missen, Sarkis</h3>
-        <p>Krijg (win)acties, aanbevelingen en voordeel direct in je mail</p>
-        <button><i class="fas fa-envelope"></i> Ja, graag</button>
-      </div>
       <div class="footerDivider">
         <div class="footerDividerContent">
           <div>
@@ -220,8 +215,9 @@
       </div>
       <img class="bolSlogan" src="images/bol-slogan.png" alt="bol.com slogan" />
     </footer>
-
-    <div class="searchingBackground disabled"></div>
+    <div id="loaderContainer" class="disabled">
+      <div class="loader"></div>
+    </div>
     <script src="scripts/script.js"></script>
   </body>
 </html>
