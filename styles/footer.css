@@ -1,0 +1,57 @@
+.footerSubscribeContainer {
+	display: grid;
+	margin-top: 5rem;
+	justify-content: center;
+	text-align: center;
+}
+
+.footerSubscribeContainer p {
+	font-size: 0.9rem;
+	margin: 0.4rem 0 1rem 0;
+}
+
+.footerSubscribeContainer button {
+	color: #fff;
+	background-color: #00f;
+	border-color: #00f;
+	width: 7rem;
+	height: 3rem;
+	margin: 0 auto;
+}
+
+.footerSubscribeContainer button i {
+	margin-right: 0.3rem;
+}
+
+.footerDivider {
+	background-color: #0000a4;
+	padding: 2rem 0;
+	margin: 2rem 0;
+	display: flex;
+	justify-content: center;
+}
+
+.footerDividerContent {
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+.footerDividerContent > div {
+	margin: 0 1rem;
+}
+
+.footerDividerContent h5 {
+	font-size: 1rem;
+	margin: 0 0 0.2rem 0;
+}
+.footerDividerContent p {
+	font-size: 0.85rem;
+}
+
+.footerDividerContent a {
+	color: #fff;
+	font-weight: 300;
+	font-size: 0.85rem;
+	text-decoration: underline;
+}
