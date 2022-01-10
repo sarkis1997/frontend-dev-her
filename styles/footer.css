@@ -39,13 +39,15 @@
 
 .footerDividerContent > div {
 	margin: 0 1rem;
+	width: 33%;
+	max-width: 21rem;
 }
 
 .footerDividerContent h5 {
 	font-size: 1rem;
 	margin: 0 0 0.2rem 0;
 }
-.footerDividerContent p {
+.footerDividerContent span {
 	font-size: 0.85rem;
 }
 
@@ -54,4 +56,14 @@
 	font-weight: 300;
 	font-size: 0.85rem;
 	text-decoration: underline;
+}
+
+.footerDividerContent > div:not(:first-child) {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footerDividerContent > div > i {
+	margin-right: 1rem;
+	font-size: 3rem;
 }
