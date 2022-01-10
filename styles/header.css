@@ -169,6 +169,12 @@ body {
   padding: 0.2rem 0;
 }
 
+.searchResults ul li:hover {
+  color: #0000a4;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .searchingBackground {
   position: fixed;
   top: 0;
