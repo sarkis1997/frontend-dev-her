@@ -235,8 +235,8 @@ body {
 	}
 	.headerTopActions {
 		grid-row: 1;
-		justify-content: end;
-		-webkit-justify-content: end;
+		justify-content: flex-end;
+		-webkit-justify-content: flex-end;
 		padding-right: 1.5rem;
 		height: 2rem;
 	}
@@ -255,8 +255,8 @@ body {
 	.headerTopContainer > a {
 		display: flex;
 		display: -webkit-flex;
-		align-items: end;
-		-webkit-align-items: end;
+		align-items: flex-end;
+		-webkit-align-items: flex-end;
 		grid-row: 1;
 		margin-left: 1.5rem;
 	}
@@ -297,9 +297,6 @@ body {
 	}
 	.headerTopActions img {
 		height: 1.3rem !important;
-	}
-	.headerTopContainer > a {
-		display: block !important;
 	}
 	.fa-bars {
 		font-size: 1.3rem;
