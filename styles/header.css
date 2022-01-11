@@ -293,9 +293,13 @@ body {
 	.headerTopActions {
 		align-items: flex-end;
 		-webkit-align-items: flex-end;
+		-webkit-justify-content: flex-end;
 	}
 	.headerTopActions img {
 		height: 1.3rem !important;
+	}
+	.headerTopContainer > a {
+		display: block !important;
 	}
 	.fa-bars {
 		font-size: 1.3rem;
