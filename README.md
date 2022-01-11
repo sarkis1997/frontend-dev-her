@@ -75,12 +75,9 @@ hier screenshot(s) van je eindresultaat
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+1. https://stackoverflow.com/questions/70339367/flexbox-align-items-and-justify-content-end-not-working-in-safari-macos/70353439
+2. https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
+3. https://cdnjs.com/libraries/font-awesome
 
 </details>
