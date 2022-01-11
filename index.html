@@ -35,8 +35,11 @@
       <div class="headerTop">
         <div class="headerTopContainer">
           <a href="index.html"
-            ><img class="headerLogo" src="images/bol_logo.svg" alt="logo"
-          /></a>
+            >
+            <i class="fas fa-bars"></i>
+            <img class="headerLogo" src="images/bol_logo.svg" alt="logo"
+            >
+            </a>
           <div class="searchField">
             <input
               class="searchFieldInput"
@@ -51,6 +54,7 @@
               onclick="searchInputHandler()"
             />
             <div class="searchResults disabled">
+              <span>Recente zoekgeschiedenis</span>
               <ul class="searchResultsList">
                 <li><span>Cold of war</span><i class="fas fa-times"></i></li>
               </ul>
@@ -221,7 +225,8 @@
       <img class="bolSlogan" src="images/bol-slogan.png" alt="bol.com slogan" />
     </footer>
 
-    <div class="searchingBackground disabled"></div>
+    <div class="searchingBackground disabled"  onclick="searchInput(close)"
+    ></div>
     <script src="scripts/script.js"></script>
   </body>
 </html>

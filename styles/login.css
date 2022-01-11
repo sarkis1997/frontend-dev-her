@@ -1,85 +1,94 @@
 .loginContainer {
-  max-width: 76rem;
-  justify-content: center;
-  display: flex;
+	max-width: 76rem;
+	justify-content: center;
+	display: flex;
 }
 
 .loginContainer > div {
-  padding: 1rem;
-  width: 35%;
+	padding: 1rem;
+	width: 35%;
 }
 .loginContainer > div:first-child {
-  border-right: 1px solid #aaa;
+	border-right: 1px solid #aaa;
 }
 
 .loginContainer p:first-child {
-  font-weight: 900;
+	font-weight: 900;
 }
 .loginContainer p {
-  margin: 0.3rem 0.5rem;
-  font-size: 0.9rem;
+	margin: 0.3rem 0.5rem;
+	font-size: 0.9rem;
 }
 
 main {
-  margin-bottom: 5rem;
+	margin-bottom: 5rem;
 }
 main h1 {
-  margin: 2rem 0 0rem 12.8rem;
+	margin: 2rem 0 0rem 12.8rem;
 }
 
 form input[type="text"],
 form input[type="password"] {
-  height: 2.5rem;
-  margin: 0.5rem;
-  width: 96%;
-  padding: 0.5rem;
-  border-color: 1px solid #aaa;
+	height: 2.5rem;
+	margin: 0.5rem;
+	width: 96%;
+	padding: 0.5rem;
+	border-color: 1px solid #aaa;
 }
 
 form input[type="radio"] {
-  margin: 0.7rem 0.5rem;
+	margin: 0.7rem 0.5rem;
 }
 
 button {
-  color: #fff;
-  background-color: #00f;
-  border-color: #00f;
-  padding: 1rem;
-  margin: 0.5rem;
+	color: #fff;
+	background-color: #00f;
+	border-color: #00f;
+	padding: 1rem;
+	margin: 0.5rem;
 }
 
 #loaderContainer.disabled {
-  display: none;
+	display: none;
 }
 
 #loaderContainer {
-  background-color: rgba(0, 0, 0, 0.3);
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
 .loader {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-left: -50px;
-  margin-top: -50px;
+	border: 16px solid #f3f3f3; /* Light grey */
+	border-top: 16px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
 
-  animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 980px) {
+	main h1 {
+		margin: 2rem 0 2rem 1.35rem;
+	}
+	.loginContainer > div {
+		width: 50%;
+	}
 }
