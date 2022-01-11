@@ -18,47 +18,43 @@ Login pagina
 ## Toegankelijkheidstest
 
 <details>
-<summary>uitwerken na test</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Headingstructuur
+Headings door elkaar
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit kan opgelost worden door de headingtags aan te passen van groot naar klein
 
+#### tab-toets navigeren
+Navigeren met de tab-toets gaat prima, echter zijn er enkele elementen die die niet geselecteerd worden.
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ Dit komt voor bij afbeeldingen zonder link. Er kan een <a></a> tag toegevoegd worden om dit op te lossen.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Afbeeldingen met button
+Afbeeldingen met button zijn op sommige plekken screenshots.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+De screenshots vervangen voor 2 losse elementen. Een afbeelding en een button.
 
 </details>
 
 ## Eindgesprek
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het schrijven van de code ging overall prima. Geen moeite met html/css of js. Het enige waar ik tegenaanliep was de het responsive maken. Ik heb daar vooraf geen rekening meegehouden. Ik ben begonnen met de desktop versie helemaal uitwerken alvorens ik media-queries invoegde. Hierdoor heb ik ook geen rekening gehouden met de HTML structuur voor mobiel. Dit heb ik veelal opgelost door css grid. Door middel van elementen weg te laten en van plek te wisselen heb ik dit kunnen oplossen.
 
 ### Screenshot(s)
+ 
+<img src="images/screen1.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screen2.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screen3.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screen4.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screen5.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screen6.jpg" width="375px" alt="omschrijving van de pagina">
 
-hier screenshot(s) van je eindresultaat
 
 </details>
 
