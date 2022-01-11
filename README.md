@@ -7,11 +7,11 @@ www.bol.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home pagina
-<img src="images/login.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/login.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Login pagina 
-<img src="images/HOME.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/HOME.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
