@@ -1,6 +1,6 @@
 ## Je website
 
-<details open>
+<details>
  
 ### Je opdracht:
 www.bol.com
