@@ -12,6 +12,7 @@ body {
 
 .topbar {
 	display: flex;
+	display: -webkit-flex;
 	justify-content: space-between;
 	max-width: 76rem;
 	margin: 0 auto;
@@ -27,6 +28,7 @@ body {
 .selectVoordelen {
 	list-style: none;
 	display: flex;
+	display: -webkit-flex;
 	justify-content: space-around;
 	margin: 0;
 	padding: 0;
@@ -58,6 +60,7 @@ body {
 	max-width: 76rem;
 	margin: 0 auto;
 	display: flex;
+	display: -webkit-flex;
 	align-items: center;
 	justify-content: space-between;
 	height: 100%;
@@ -71,6 +74,7 @@ body {
 .searchField {
 	position: relative;
 	display: flex;
+	display: -webkit-flex;
 	align-items: center;
 	z-index: 9;
 }
@@ -93,6 +97,7 @@ body {
 .headerTopActions {
 	color: #fff;
 	display: flex;
+	display: -webkit-flex;
 	align-items: center;
 }
 .headerTopActions > *:not(:last-of-type) {
@@ -104,6 +109,7 @@ body {
 
 .account {
 	display: flex;
+	display: -webkit-flex;
 	align-items: center;
 }
 .account p {
@@ -120,6 +126,7 @@ body {
 
 .headerBottomContainer .nav {
 	display: flex;
+	display: -webkit-flex;
 	justify-content: space-between;
 	max-width: 76rem;
 	margin: 0 auto;
@@ -140,6 +147,7 @@ body {
 
 .subNav nav {
 	display: flex;
+	display: -webkit-flex;
 	justify-content: right;
 	max-width: 76rem;
 	margin: 0 auto;
@@ -169,6 +177,7 @@ body {
 }
 .searchResults ul li {
 	display: flex;
+	display: -webkit-flex;
 	justify-content: space-between;
 	padding: 0.2rem 0;
 }
@@ -235,6 +244,7 @@ body {
 	}
 	.headerTopContainer > a {
 		display: flex;
+		display: -webkit-flex;
 		align-items: end;
 		grid-row: 1;
 		margin-left: 1.5rem;
@@ -271,6 +281,7 @@ body {
 	}
 	.headerTopActions {
 		align-items: flex-end;
+		-webkit-align-items: flex-end;
 	}
 	.headerTopActions img {
 		height: 1.3rem !important;
