@@ -79,5 +79,6 @@ hier screenshot(s) van je eindresultaat
 1. https://stackoverflow.com/questions/70339367/flexbox-align-items-and-justify-content-end-not-working-in-safari-macos/70353439
 2. https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
 3. https://cdnjs.com/libraries/font-awesome
+4. https://dlo.mijnhva.nl/d2l/le/content/392709/Home
 
 </details>
