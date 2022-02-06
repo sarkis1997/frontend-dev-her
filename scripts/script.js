@@ -31,6 +31,7 @@ const searchInputHandler = () => {
 	let searchResultsList =
 		document.getElementsByClassName("searchResultsList")[0];
 
+		console.log(inputValue)
 	if (inputValue !== "") {
 		let li = document.createElement("li");
 		let span = document.createElement("span");
@@ -45,3 +46,15 @@ const searchInputHandler = () => {
 	searchBackground.classList.add("disabled");
 	searchResults.classList.add("disabled");
 };
+
+let loginButton = document.getElementsByClassName('loginButton')[0];
+loginButton && loginButton.addEventListener("click", login)
+
+let searchFieldInput = document.getElementsByClassName('searchFieldInput')[0];
+searchFieldInput && searchFieldInput.addEventListener("click", () => searchInput())
+
+let searchIcon = document.getElementsByClassName('searchIcon')[0];
+searchIcon && searchIcon.addEventListener("click", searchInputHandler)
+
+let searchingBackground = document.getElementsByClassName('searchingBackground')[0];
+searchingBackground && searchingBackground.addEventListener("click", searchInput(close))
